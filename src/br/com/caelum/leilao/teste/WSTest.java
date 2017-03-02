@@ -10,5 +10,10 @@ public class WSTest {
 		expect().cookie("rest-assured", "funciona")
 		.when().get("/cookie/teste");
 	}
+	
+	@Test
+	public void testaHeader(){
+		expect().header("novo-header", "abc").when().get("/cookie/teste");
+	}
 
 }
