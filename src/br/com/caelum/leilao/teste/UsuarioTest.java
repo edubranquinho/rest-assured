@@ -106,5 +106,5 @@ public class UsuarioTest {
 		 .when().delete("/leiloes/deletar").andReturn().asString();
 		 
 	 }
-
+	
 }
